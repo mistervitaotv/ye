@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+  min-height: 1000px;
+}
+span
+{
+  color: red;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+h1
+{
+  font-size: 4em;
+  font-weight: 900;
+}
+.menu{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(ye\ bear.jpg); 
+  background-size: cover;
+
+}
+.menu .content{
+  max-width: 900px;
+  text-align: center;
+  
+}
+.menu .content h2{
+  font-size: 5em;
+  color: red;
+
+}
+.menu .content p{
+  font-size: 1em;
+  color: white;
+}
+.btn /* bottom */ 
+{
+    font-size: 1em;
+    color: #fff;
+    background:black;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+ letter-spacing: 6px;
+ color: red;
+
+}
+header
+{
+ position: fixed;
+ top: 0;
+ left: 0;
+ background: rgba(0, 0, 0, 0.5);
+ height: 80px;
+ width: 100%;
+ padding: 40px 100px;
+ z-index: 100000;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ transition: 0.5s;
+}
+header .logo
+{
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+header .logo span
+{
+    color: red;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+header .navigation
+{ position: relative;
+  display: flex;
+}
+header .navigation li
+{
+ list-style: none;
+ margin-left: 30px;
+}
+header .navigation li a
+{
+  text-decoration: none;
+  color: white;
+  font-weight: 300px;
+}
+header .navigation li a:hover
+{
+ color: red;
+}
+.allmine
+{
+    width: 300px;
+}
+section
+{
+  padding: 100px;
+}
+.row
+{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.row .col150
+{
+  position: relative;
+  width: 50%;
+}
+.pp /* TEXTO HORIONTAL */
+{
+  width:400px;
+  height:180px;
+  margin: auto;
+
+}
+.titletext
+{
+  color: black;
+  font-size: 2em;
+  font-weight: 200;
+}
+.titletext span
+{
+ color: red;
+ font-weight: 700;
+ font-size: 1.5em;
+}
+.row .col150 .imgbx
+{
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+.row .col150 .imgbx img
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100;
+ object-fit: cover;
+}
+/* CONTACT */
+
+.contato
+{
+  background: url(Graduation.jpg);
+  background-size: cover;
+}
+.contacfrom
+{
+  padding: 75px 50px;
+  background: white;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-top: 50px;
+}
